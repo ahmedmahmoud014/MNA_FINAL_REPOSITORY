@@ -1,0 +1,16 @@
+platform :ios, '10.0'
+use_frameworks!
+
+target 'Mofa' do
+    pod 'Alamofire', '~> 4.7'
+pod 'JGProgressHUD'
+pod 'ObjectMapper', '~> 3.1'
+#pod 'FoldingCell'
+pod 'RxSwift',    '~> 4.0'
+pod 'RxCocoa',    '~> 4.0'
+pod 'DocumentReader'
+pod 'MOLH'
+#pod 'DocumentReaderCore'
+pod 'IQKeyboardManagerSwift'
+pod 'DocumentReaderFull'
+end

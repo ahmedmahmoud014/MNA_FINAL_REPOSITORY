@@ -1,0 +1,230 @@
+
+/*
+ Localizable.strings
+ Mofa
+ 
+ Created by mac bokk pro on 2018-03-25.
+ Copyright © 2018 mac bokk pro. All rights reserved.
+ */
+
+// main page
+share_main_page = "مشاركات";
+information_main_page = "معلومات";
+sevices_main_page = "خدمات";
+gide_main_page = "إرشادات";
+nearst_main_page = "أقرب ممثلية";
+favourite_main_page = "المفضلة";
+
+// shar page
+share_openion ="شارك برأيك";
+share_idea = "فكرة";
+share_vote = "تصويت";
+share_servay = "إستبيان";
+share_social_services = "خدمات التواصل";
+//  home menu icon
+home_main_home = "الرئيسية";
+home_main_setting = "المفضلة";
+home_main_fav = "إعدادات";
+home_main_profile = "حسابي";
+PRODUCT_NAME =  "MNA";
+//internet_connection
+internet_connection =" لا يوجد اتصال بالإنترنت، فضلا تأكد من تشغيل wifi أو الموبيل انترنت";
+//
+
+before_travling =  "قبل السفر  ";
+while_trivaling  =  "أثناء السفر";
+
+//re presentation details
+representationPresident = "رئيس البعثة";
+representationAddress = "العنوان";
+representationPhoneNumber = "رقم الهاتف";
+representationAffairsPhone = "هاتف شؤون السعوديين";
+representationFax = "الفاكس";
+representationEmail = "البريد الإلكتروني ";
+representationTimeDiffrance = "فرق التوقيت";
+representationVacation = "الأجازات";
+representationWorkDay= "ساعات العمل";
+
+
+//arshadat
+arashadate_travaling =  "إرشادات المسافرون";
+arashadate_living =  "إرشادات سعودي مقيم خارج  المملكة ";
+
+
+//passortRegistration
+passportImage =  "صورة جواز السفر";
+fourName =  "الإسم الرباعي ";
+passportId = "رقم جواز السفر ";
+recordId  = "رقم السجل المدني";
+// button  name
+next =  "التالي";
+back = "السابق";
+agree = "موافق";
+disagree =  "لا أوافق" ;
+send ="إرسال";
+
+
+phoneNumber =  "xxxxxxxxx00966 رقم الجوال  ";
+phoneNumberValidation=  "رقم الجوال";
+email = "البريد الإلكتروني";
+attention = "شخص يمكن الرجوع إليه في حالة الطوارئ";
+//
+travelingType  = "نوع السفر ";
+countryGoto  = "الدولة المسافرإليها";
+cityGoto  = "المدينه";
+arraivalDate  = "تاريخ الوصول ";
+leaveDate  = "تاريخ المغادرة المتوقع";
+addressInCountry  = "العنوان في الدولة المسافر إليها";
+
+registPassportDone  = "تمت عملية تسجيل بيانات جواز السفر والرحلة بنجاح نتمني لكم رحلة أمنه وسعيدة";
+//// request help for outside citizen
+
+fristName =  "الإسم الأول";
+fahterName =  "إسم الأب";
+grandfahterName =  "إسم الجد";
+familyName=  "إسم العائلة";
+representation =  "الممثلية";
+attachment =  "المرفقات";
+helpDetails =  "تفاصيل طلب المساعدة";
+doneHelp =  "تمت عملية تسجيل طلب المساعدة بنجاح";
+
+firstStep =  "الخطوة الأولي";
+sesondStep =  "الخطوة الثانية";
+thirdStep =  "الخطوة الثالثة";
+fourStep =  "الخطوة الرابعة";
+fiveStep =  "الخطوة الأخيرة";
+
+
+// request visa
+birthDate =  "تاريخ الميلاد ";
+verifyCode =  "رقم التحقق";
+verifyText =  "تم إرسال رقم التحقق علي الرقم الجوال";
+visa_done  =  "تمت عملية تسجيل طلب تأشيرة الخروج بنجاح";
+
+name =  "الإسم";
+remarks ="الملاحضات ";
+attachment ="المرفقات";
+attachmentFour ="عدد المرفقات 4  ملفات";
+
+//validation message
+feildValidation  =   "ادخل" ;
+
+friendName  =   "اسم  الشخص " ;
+friendPhone  = "رقم  جوال الشخص" ;
+
+phoneNumberStyle = " رقم الجوال المقبول يكون على الصيغة 00966xxxxxxxxx أو  966xxxxxxxxx+ ";
+
+recordLength =  "رقم السجل المدني مكون من 10 رقم" ;
+passportLength = "رقم جواز السفر مكون من 9 رقم" ;
+notValidEmail  =  "البريد الالكتروني غير صالح";
+
+birthDateVidation  =  " تاريخ الميلاد يجب ان يكون قبل تاريخ اليوم ";
+leaveDateValidation =  " تاريخ المغادرة يجب ان يكون أكبر من أو يساوي تاريخ الوصول ";
+
+attachmentNumberFour =  "اقصي عدد للمرفقات 4  ملفات";
+validationLessThan8  = "رقم التحقق مكون من 8 ارقام";
+validatinValue =  "رقم التحقيق غير صحيح";
+nearestRepresentation  =   "أقرب الممثليات";
+verifyStep = "خطوة التحقق";
+
+// request
+requestType = "نوع الطلب";
+requestNumber = "رقم الطلب";
+requestDate ="تاريخ الطلب";
+requestUserName = "الإسم";
+requestUserNationality = "الجنسية";
+requestUserJob = "المهنة";
+requestUserAddress = "العنوان";
+requestUserPhoneNumber = "رقم الهاتف";
+requestUserRecord = "رقم السجل";
+requestEndDate = "تاريخ الإنتهاء";
+//requestUserAddress = "العنوان";
+requestJobOwerName = "اسم صاحب العمل";
+requestJobOwerRecord = "رقم سجل صاحب العمل";
+requestVisitAim = "الغرض من الزيارة";
+
+requestName =  "اسم المطلوب";
+requestReligion =  "الديانة";
+requestWorkPlace =  "مكان العمل";
+requestJobType =  "النشاط";
+requestAge =  "العمر";
+requestRelation =  "العلاقة/المهنة";
+requestFromWhere =  "جهة القدوم";
+requestSex =  "الجنس";
+requestEnterTimes =  "عدد مرات الدخول";
+requestVisitDuration =  "مدة الإقامة بالأيام";
+
+queryTitle =  "إستعلام";
+
+reqestVisaFile =   "مستند تأشيرة";
+
+reqestVisaNumber =   "رقم التأشيرة";
+reqestVisaDate =   "تاريخ التأشيرة";
+requestVisaOwnerName  = "اسم صاحب الطلب";
+
+reqestVisaType =   "نوع التأشيرة";
+reqestVisaStatus =   "حالة الطلب";
+reqestVisaRecordNumber=   "رقم السجل";
+
+passportEndDate =  "تاريخ إنتهاء الجواز";
+visaStatus  =  "حالة التأشيرة";
+
+visaEndDate =  "تاريخ إنتهاء التأشيرة";
+
+visaDetailsData = "بيانات تأشيرة الخروج";
+visaRequestDetailsDate = "بيانات طلب تأشيرة";
+
+
+invitationNumber = "رقم خطاب الدعوة";
+invitationRecordNumber = "رقم سجل صاحب العمل";
+
+invitationLetter = "خطاب دعوة";
+
+representationTiltle = "إلى ممثلية خادم الحرمين الشريفين في";
+
+invitationDate =  "تاريخ  خطاب الدعوة";
+companyOwnerName =   "اسم الشركة أو صاحب العمل";
+tradeRecordId =   "رقم السجل التجاري";
+companyFeild  =  "نشاط الشركة أو صاحب العمل" ;
+
+companyAddress =  "عنوان الشركة أو صاحب العمل";
+companyType =  "نوع الشركة";
+visitorName =  "اسم المطلوب للزيارة";
+durationPerDay =   "مدة الإقامة باليوم";
+workplaceName  = " اسم جهة عمل المطلوب للزيارة";
+workPlaceActive =  "نشاط جهة عمل المطلوب للزيارة";
+
+passportNumberr =  "رقم الجواز";
+feesPaid = "الرسوم المدفوعة";
+
+repreentationIn =  "الممثلية ف";
+barthDatePlace =  "مكان الميلاد";
+requestOrginazation =  "اسم الجهة الطالبة";
+passpoerType =  "نوع الجواز";
+currentNationality  =  "الجنسية الحالية";
+recordOrResidenceId =  "رقم السجل او الإقامة او المنشأة";
+
+recordNumberORPassport =  "رقم السجل المدني أو جواز السفر";
+opertatioNumber  =   "رقم العملية";
+
+topic  =  "الموضوع";
+ProcedureType  = "نوع الإجراء";
+ReceiptNumber  = "رقم الإيصال";
+
+dataTitle =   " بيانات الطلب";
+noData  =  "لا توجد بيانات";
+invalidLocation   = "هذه الخاصية متاحة خارج المملكة";
+scanPassport   = "سحب بيانات وثيقة السفر آليا";
+
+imageSelectDialogTest = "الرجاء اختار ";
+cancel = "إلغاء";
+gallery = "الإستديو";
+camera = "الكاميرا";
+backToHome = "الرجوع  للصفحة الرئيسية";
+
+inqueryHomePage =  "reerere";
+serviceHomePage =  "خدمات السعوديين في الخارج";
+instructionHomePage =  "إرشادات";
+aboutHomePage = "عن التطبيق";
+
+teeeeee = "ttilte test";
