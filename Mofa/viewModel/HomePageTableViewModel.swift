@@ -8,7 +8,7 @@
 
 import Foundation
 import UIKit
-// home page 
+// home page//
 class HomePageTableViewModel {
     
     
