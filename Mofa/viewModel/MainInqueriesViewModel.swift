@@ -189,7 +189,7 @@ class MainInqueriesViewModel {
             
         else if  screenNumber == 4 {
             
-            if InquerySingleTone().sharedInstance.firstFeildValue ==  "1111111111" {
+            if InquerySingleTone().sharedInstance.firstFeildValue ==  "111111111111111" {
             
             mainInqueriesStruct = MainInqueriesStruct(pageTitle: BaseController().localizedString(forKey: "reqestVisaFile",languageType: "ar") ,allInQuertItems: [
                 InqueryItems(title: BaseController().localizedString(forKey: "requestVisitAim",languageType: "ar"),value: "عمل خاص ") ,

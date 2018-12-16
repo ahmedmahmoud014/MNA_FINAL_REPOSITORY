@@ -58,7 +58,7 @@ class InqueriesFeildViewController: BaseController,  UITextViewDelegate {
             recodIDPlaceHolder = localizedString(forKey: "recordOrResidenceId", languageType: "ar")
             visaIdPlaceHolder = localizedString(forKey: "requestNumber", languageType: "ar")
             validatinLengthFristFeild  = RECORD_ID_VALIDATION
-            validatinLengthSecondFeild  =  INQYERY_REQUEST_VALIDATION
+            validatinLengthSecondFeild  =  VALIDATION_NUMBER_15
             keyBoardType(upperFeild: .numberPad,dwonFeild: .numberPad)
             
             break
@@ -109,7 +109,7 @@ class InqueriesFeildViewController: BaseController,  UITextViewDelegate {
 
             recodIDPlaceHolder = localizedString(forKey: "invitationNumber", languageType: "ar")
             visaIdPlaceHolder = localizedString(forKey: "invitationRecordNumber", languageType: "ar")
-            validatinLengthFristFeild  = RECORD_ID_VALIDATION
+            validatinLengthFristFeild  = VALIDATION_NUMBER_15
             validatinLengthSecondFeild  =  RECORD_ID_VALIDATION
              break
             
@@ -122,7 +122,7 @@ class InqueriesFeildViewController: BaseController,  UITextViewDelegate {
 
             recodIDPlaceHolder = localizedString(forKey: "requestNumber", languageType: "ar")
             visaIdPlaceHolder = localizedString(forKey: "passportId", languageType: "ar")
-            validatinLengthFristFeild  = INQYERY_REQUEST_VALIDATION
+            validatinLengthFristFeild  = VALIDATION_NUMBER_15
             validatinLengthSecondFeild  =  PASSPORT_NUMBER_VALIDATION
             break
             
@@ -134,7 +134,7 @@ class InqueriesFeildViewController: BaseController,  UITextViewDelegate {
             showInfo2Btn.isHidden = false
             recodIDPlaceHolder = localizedString(forKey: "requestNumber", languageType: "ar")
             visaIdPlaceHolder = localizedString(forKey: "recordNumberORPassport", languageType: "ar")
-            validatinLengthFristFeild  = INQYERY_REQUEST_VALIDATION
+            validatinLengthFristFeild  = VALIDATION_NUMBER_15
             validatinLengthSecondFeild  =  RECORD_ID_VALIDATION
             break
         case 7 :
@@ -146,7 +146,7 @@ class InqueriesFeildViewController: BaseController,  UITextViewDelegate {
             
             recodIDPlaceHolder = localizedString(forKey: "requestNumber", languageType: "ar")
             visaIdPlaceHolder = localizedString(forKey: "reqestVisaRecordNumber", languageType: "ar")
-            validatinLengthFristFeild  = INQYERY_REQUEST_VALIDATION
+            validatinLengthFristFeild  = VALIDATION_NUMBER_15
             validatinLengthSecondFeild  =  RECORD_ID_VALIDATION
             break
             
@@ -158,7 +158,7 @@ class InqueriesFeildViewController: BaseController,  UITextViewDelegate {
             
             recodIDPlaceHolder = localizedString(forKey: "requestNumber", languageType: "ar")
             visaIdPlaceHolder = localizedString(forKey: "passportNumberr", languageType: "ar")
-            validatinLengthFristFeild  = INQYERY_REQUEST_VALIDATION
+            validatinLengthFristFeild  = VALIDATION_NUMBER_15
             validatinLengthSecondFeild  =  PASSPORT_NUMBER_VALIDATION
             break
         default:

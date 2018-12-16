@@ -229,6 +229,7 @@ class HomePageTableView: BaseController ,UITableViewDataSource,UITableViewDelega
     }
     override func viewDidLoad() {
         super.viewDidLoad()
+        homePageTableview.addShadow(roundBorder: 20, opacity: 0.0)
         
 //        MOLH.setLanguageTo(MOLHLanguage.currentAppleLanguage() == "en" ? "ar" : "en")
 //        MOLH.reset(transition: .transitionCrossDissolve)

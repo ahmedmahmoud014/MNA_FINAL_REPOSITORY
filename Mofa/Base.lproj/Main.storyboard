@@ -290,7 +290,7 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="main_bg.png" translatesAutoresizingMaskIntoConstraints="NO" id="Pia-2A-VFm">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                             </imageView>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="3gJ-cW-PxP">
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="3gJ-cW-PxP">
                                 <rect key="frame" x="16" y="145" width="382" height="717"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -693,7 +693,7 @@
                                                     </constraints>
                                                 </view>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jYG-Co-bYx">
-                                                    <rect key="frame" x="329.66666666666669" y="7" width="43.333333333333314" height="39"/>
+                                                    <rect key="frame" x="324" y="7" width="49" height="39"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="39" id="zJl-wq-Ubv"/>
                                                     </constraints>
@@ -796,10 +796,10 @@
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                             </imageView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kPJ-xO-Cqa">
-                                <rect key="frame" x="31" y="230" width="353" height="62"/>
+                                <rect key="frame" x="31" y="230" width="353" height="65"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="تحديد أقرب ممثلية" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cFV-bu-w3X">
-                                        <rect key="frame" x="0.0" y="19" width="353" height="24"/>
+                                        <rect key="frame" x="0.0" y="19" width="353" height="27"/>
                                         <fontDescription key="fontDescription" name="HacenAlgeria" family="Hacen Algeria" pointSize="23"/>
                                         <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
@@ -814,10 +814,10 @@
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lNg-hX-u8A">
-                                <rect key="frame" x="31" y="517" width="353" height="72"/>
+                                <rect key="frame" x="31" y="520" width="353" height="72"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="right" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cWK-K2-pYX">
-                                        <rect key="frame" x="104" y="5" width="249" height="59"/>
+                                        <rect key="frame" x="115" y="5" width="238" height="59"/>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="59" id="WwT-S4-wWq"/>
@@ -848,7 +848,7 @@
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ibu-hm-I9i">
-                                <rect key="frame" x="31" y="414" width="353" height="72"/>
+                                <rect key="frame" x="31" y="417" width="353" height="72"/>
                                 <subviews>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="arrow.png" translatesAutoresizingMaskIntoConstraints="NO" id="bty-WR-r6Y">
                                         <rect key="frame" x="10" y="22" width="30" height="30"/>
@@ -858,7 +858,7 @@
                                         </constraints>
                                     </imageView>
                                     <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="right" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pbh-NA-pbc">
-                                        <rect key="frame" x="174" y="6" width="175" height="60"/>
+                                        <rect key="frame" x="183" y="6" width="166" height="60"/>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="60" id="twG-Rc-7vW"/>
@@ -1382,7 +1382,7 @@
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <subviews>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mbg-vn-qX5">
-                                                            <rect key="frame" x="45" y="11" width="231" height="22"/>
+                                                            <rect key="frame" x="45" y="11.000000000000002" width="231" height="24.666666666666671"/>
                                                             <fontDescription key="fontDescription" name="HacenAlgeria" family="Hacen Algeria" pointSize="21"/>
                                                             <color key="textColor" red="0.070588235294117646" green="0.3411764705882353" blue="0.24313725490196078" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                             <nil key="highlightedColor"/>
@@ -1394,7 +1394,7 @@
                                                             </constraints>
                                                         </imageView>
                                                         <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" verticalCompressionResistancePriority="749" scrollEnabled="NO" editable="NO" textAlignment="right" translatesAutoresizingMaskIntoConstraints="NO" id="N8J-XI-g38">
-                                                            <rect key="frame" x="45" y="41" width="231" height="41"/>
+                                                            <rect key="frame" x="45" y="43.666666666666657" width="231" height="38.333333333333343"/>
                                                             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                             <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
                                                             <color key="textColor" red="0.37055522200000002" green="0.37056469920000001" blue="0.37055957319999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -2002,7 +2002,7 @@
                                                     </constraints>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ghE-F5-aZl">
-                                                    <rect key="frame" x="249.33333333333334" y="11" width="45.666666666666657" height="39"/>
+                                                    <rect key="frame" x="243.33333333333334" y="11" width="51.666666666666657" height="39"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="39" id="eNM-To-YLE"/>
                                                     </constraints>
@@ -2076,17 +2076,17 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="main_bg.png" translatesAutoresizingMaskIntoConstraints="NO" id="J1n-Ef-bHO">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <rect key="frame" x="0.0" y="0.0" width="1080" height="896"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="done_help.png" translatesAutoresizingMaskIntoConstraints="NO" id="Vun-1d-jCx">
-                                <rect key="frame" x="97" y="189" width="220" height="181"/>
+                                <rect key="frame" x="97" y="189" width="886" height="181"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="181" id="VLd-Yd-2lo"/>
                                     <constraint firstAttribute="height" constant="181" id="rhj-Nj-Lvl"/>
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bxc-tK-YKS">
-                                <rect key="frame" x="16" y="394" width="382" height="91"/>
+                                <rect key="frame" x="16" y="394" width="1048" height="91"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="91" id="zVp-h9-fFt"/>
                                 </constraints>
@@ -2095,7 +2095,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dub-G4-hJW">
-                                <rect key="frame" x="16" y="510" width="382" height="65"/>
+                                <rect key="frame" x="16" y="510" width="1048" height="65"/>
                                 <color key="backgroundColor" red="0.14117647059999999" green="0.49803921569999998" blue="0.36862745099999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="65" id="Hll-41-MTX"/>
@@ -2836,13 +2836,13 @@
                                         </constraints>
                                     </view>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="بيانات الطلب   " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hmh-xD-eQ2">
-                                        <rect key="frame" x="16" y="94" width="343" height="23"/>
+                                        <rect key="frame" x="16" y="94" width="343" height="25.666666666666671"/>
                                         <fontDescription key="fontDescription" name="HacenAlgeria" family="Hacen Algeria" pointSize="22"/>
                                         <color key="textColor" red="0.074509803920000006" green="0.3921568627" blue="0.28235294119999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wBB-g0-3vK">
-                                        <rect key="frame" x="0.0" y="125" width="375" height="637"/>
+                                        <rect key="frame" x="0.0" y="127.66666666666669" width="375" height="637"/>
                                         <subviews>
                                             <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rr2-fC-Ix1">
                                                 <rect key="frame" x="16" y="8" width="343" height="219"/>
@@ -2864,7 +2864,7 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="بيانات  المطلوبين  " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="40V-v6-P1R">
-                                                <rect key="frame" x="16" y="311" width="343" height="23"/>
+                                                <rect key="frame" x="16" y="310.99999999999994" width="343" height="25.666666666666686"/>
                                                 <fontDescription key="fontDescription" name="HacenAlgeria" family="Hacen Algeria" pointSize="22"/>
                                                 <color key="textColor" red="0.074509803920000006" green="0.3921568627" blue="0.28235294119999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
@@ -2885,7 +2885,7 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dZZ-PU-WDb">
-                                                <rect key="frame" x="16" y="235" width="166" height="67"/>
+                                                <rect key="frame" x="16" y="234.99999999999994" width="166" height="67"/>
                                                 <color key="backgroundColor" red="0.074509803920000006" green="0.3921568627" blue="0.28235294119999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="166" id="mzv-Xo-auy"/>
@@ -2919,7 +2919,7 @@
                                                 </constraints>
                                             </view>
                                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" scrollEnabled="NO" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="zrc-IH-NO0">
-                                                <rect key="frame" x="16" y="350" width="343" height="180"/>
+                                                <rect key="frame" x="16" y="352.66666666666669" width="343" height="180.00000000000006"/>
                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="180" id="0Eb-j2-hF3"/>
@@ -2941,7 +2941,7 @@
                                                                     </constraints>
                                                                 </imageView>
                                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="   عدد مرات الدخول عدد مرات الدخول " textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yq5-c3-k4W">
-                                                                    <rect key="frame" x="49" y="8" width="265" height="21"/>
+                                                                    <rect key="frame" x="49" y="7.9999999999999982" width="265" height="23.333333333333329"/>
                                                                     <fontDescription key="fontDescription" name="HacenAlgeria" family="Hacen Algeria" pointSize="20"/>
                                                                     <color key="textColor" red="0.078431372550000003" green="0.30980392159999998" blue="0.2274509804" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                     <nil key="highlightedColor"/>
@@ -2961,7 +2961,7 @@
                                                                     </constraints>
                                                                 </imageView>
                                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="عدد مرات الدخول " textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6AJ-9I-Pmd">
-                                                                    <rect key="frame" x="207" y="48" width="106" height="18"/>
+                                                                    <rect key="frame" x="207" y="48" width="106" height="20"/>
                                                                     <fontDescription key="fontDescription" name="HacenAlgeria" family="Hacen Algeria" pointSize="17"/>
                                                                     <color key="textColor" red="0.078431372550000003" green="0.30980392159999998" blue="0.2274509804" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                     <nil key="highlightedColor"/>
@@ -2976,13 +2976,13 @@
                                                                     <nil key="highlightedColor"/>
                                                                 </label>
                                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="مدة الإقامه بالإيام " textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iOe-hG-tJE">
-                                                                    <rect key="frame" x="199.33333333333334" y="76" width="113.66666666666666" height="18"/>
+                                                                    <rect key="frame" x="204.33333333333334" y="78" width="108.66666666666666" height="20"/>
                                                                     <fontDescription key="fontDescription" name="HacenAlgeria" family="Hacen Algeria" pointSize="17"/>
                                                                     <color key="textColor" red="0.078431372550000003" green="0.30980392159999998" blue="0.2274509804" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                     <nil key="highlightedColor"/>
                                                                 </label>
                                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" verticalCompressionResistancePriority="751" text="مده الاقامه" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tiO-kK-JAx">
-                                                                    <rect key="frame" x="120.33333333333331" y="76" width="69" height="18"/>
+                                                                    <rect key="frame" x="131" y="76" width="63.333333333333343" height="18"/>
                                                                     <constraints>
                                                                         <constraint firstAttribute="height" constant="18" id="SAy-IM-0rW"/>
                                                                     </constraints>
@@ -3100,7 +3100,7 @@
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3gF-s2-38L">
-                                        <rect key="frame" x="-10" y="278" width="394" height="1"/>
+                                        <rect key="frame" x="-10" y="280.66666666666669" width="394" height="1"/>
                                         <color key="backgroundColor" red="0.92143100499999997" green="0.92145264149999995" blue="0.92144101860000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="1" id="tVh-4G-EMD"/>
@@ -3199,13 +3199,13 @@
                                                     </constraints>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZGu-ll-VfV">
-                                                    <rect key="frame" x="13" y="10" width="327" height="23"/>
+                                                    <rect key="frame" x="13" y="10.000000000000002" width="327" height="25.666666666666671"/>
                                                     <fontDescription key="fontDescription" name="HacenAlgeria" family="Hacen Algeria" pointSize="22"/>
                                                     <color key="textColor" red="0.11764705882352941" green="0.50588235294117645" blue="0.36862745098039218" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rmo-ak-IEi">
-                                                    <rect key="frame" x="20" y="45" width="317" height="21"/>
+                                                    <rect key="frame" x="20" y="47.666666666666664" width="317" height="23.333333333333336"/>
                                                     <fontDescription key="fontDescription" name="HacenAlgeria" family="Hacen Algeria" pointSize="20"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
@@ -3313,13 +3313,13 @@
                                                             </constraints>
                                                         </imageView>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UfD-Ls-Ygi">
-                                                            <rect key="frame" x="272.66666666666669" y="8" width="43.333333333333314" height="21"/>
+                                                            <rect key="frame" x="267" y="7.9999999999999982" width="49" height="23.333333333333329"/>
                                                             <fontDescription key="fontDescription" name="HacenAlgeria" family="Hacen Algeria" pointSize="20"/>
                                                             <color key="textColor" red="0.070588235294117646" green="0.34509803921568627" blue="0.25098039215686274" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mKq-5l-PFp">
-                                                            <rect key="frame" x="15" y="34" width="302" height="21"/>
+                                                            <rect key="frame" x="15" y="36.333333333333336" width="302" height="23.333333333333336"/>
                                                             <fontDescription key="fontDescription" name="HacenAlgeria" family="Hacen Algeria" pointSize="20"/>
                                                             <color key="textColor" red="0.28627450980392155" green="0.28627450980392155" blue="0.28627450980392155" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                             <nil key="highlightedColor"/>
@@ -3400,7 +3400,7 @@
                                         </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="لا  توجد بيانات  " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5w4-qV-9UC">
-                                        <rect key="frame" x="16" y="90" width="343" height="18"/>
+                                        <rect key="frame" x="16" y="90" width="343" height="20"/>
                                         <fontDescription key="fontDescription" name="HacenAlgeria" family="Hacen Algeria" pointSize="17"/>
                                         <color key="textColor" red="0.098039215690000001" green="0.39607843139999999" blue="0.2901960784" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
@@ -3777,7 +3777,7 @@
                                 <rect key="frame" x="0.0" y="500" width="414" height="65"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="n2x-tg-6eS">
-                                        <rect key="frame" x="365.66666666666669" y="0.0" width="43.333333333333314" height="65"/>
+                                        <rect key="frame" x="360" y="0.0" width="49" height="65"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="65" id="mgR-Aa-taQ"/>
                                         </constraints>
@@ -3797,7 +3797,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ovh-Cq-0Pg">
-                                        <rect key="frame" x="315.66666666666669" y="12" width="40" height="40"/>
+                                        <rect key="frame" x="310" y="12" width="40" height="40"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="40" id="3Sp-N7-c88"/>
                                             <constraint firstAttribute="width" constant="40" id="Gme-PE-hRx"/>
@@ -3895,13 +3895,13 @@
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="UIConstraintBasedLayoutDebuggingUIConstraintBasedLayoutDebugging" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2pR-Bx-eAV">
-                                                    <rect key="frame" x="5" y="29.999999999999996" width="325" height="35.666666666666657"/>
+                                                    <rect key="frame" x="5" y="29.999999999999996" width="325" height="39.666666666666657"/>
                                                     <fontDescription key="fontDescription" name="HacenAlgeria" family="Hacen Algeria" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iLg-Sq-fQb">
-                                                    <rect key="frame" x="5" y="67.666666666666671" width="404" height="1"/>
+                                                    <rect key="frame" x="5" y="71.666666666666671" width="404" height="1"/>
                                                     <color key="backgroundColor" red="0.83741801979999997" green="0.83743780850000005" blue="0.83742713930000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="1" id="plf-3p-wIc"/>
@@ -3977,7 +3977,7 @@
                                 <rect key="frame" x="13" y="354" width="385" height="300"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="يرجي إرفاق صورة من قرار (الأجازة ، الأنتداب ) أو خطاب موافقة من جهة العمل ." textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ip9-Tg-Ob8">
-                                        <rect key="frame" x="8" y="23" width="369" height="46"/>
+                                        <rect key="frame" x="8" y="23.000000000000004" width="369" height="51.333333333333343"/>
                                         <fontDescription key="fontDescription" name="HacenAlgeria" family="Hacen Algeria" pointSize="22"/>
                                         <color key="textColor" red="0.074509803920000006" green="0.38823529410000002" blue="0.2784313725" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
@@ -4045,13 +4045,13 @@
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JPF-FE-6VZ">
-                                <rect key="frame" x="16" y="222" width="343" height="21"/>
+                                <rect key="frame" x="16" y="222" width="343" height="23.333333333333343"/>
                                 <fontDescription key="fontDescription" name="HacenAlgeria" family="Hacen Algeria" pointSize="20"/>
                                 <color key="textColor" red="0.1176470588" green="0.50588235290000005" blue="0.36862745099999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="INF-iw-K5C">
-                                <rect key="frame" x="16" y="248" width="343" height="21"/>
+                                <rect key="frame" x="16" y="250.33333333333337" width="343" height="21"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="21" id="ZVF-Ix-CI3"/>
                                 </constraints>
