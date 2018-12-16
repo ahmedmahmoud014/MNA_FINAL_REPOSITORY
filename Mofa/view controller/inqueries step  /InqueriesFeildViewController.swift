@@ -34,14 +34,19 @@ class InqueriesFeildViewController: BaseController,  UITextViewDelegate {
 //        loadDataBtn.titleLabel?.font =  UIFont(name: "HacenAlgeria", size: 23)
         loadDataBtn.setTitle(localizedString(forKey: "queryTitle", languageType: "ar"), for: .normal)
         intialize(checkNumber: InquerySingleTone().sharedInstance.selectStep)
+        
+        
         pageViewTitle.text   = InquerySingleTone().sharedInstance.pageTilte
         
         // Do any additional setup after loading the view.
         
-    }
-    
-    func keyBoardType (upperFeild : UIKeyboardType  , dwonFeild : UIKeyboardType ) {
         
+        
+    }
+    override func viewWillAppear(_ animated: Bool) {
+        InqueriesTopDataViewController.pageTitleText = ""
+    }
+    func keyBoardType (upperFeild : UIKeyboardType  , dwonFeild : UIKeyboardType ) {
         recordNumber.keyboardType = upperFeild
         visaNumber.keyboardType =  dwonFeild
     }
@@ -133,7 +138,7 @@ class InqueriesFeildViewController: BaseController,  UITextViewDelegate {
             showInfoBtn.isHidden = true
             showInfo2Btn.isHidden = false
             recodIDPlaceHolder = localizedString(forKey: "requestNumber", languageType: "ar")
-            visaIdPlaceHolder = localizedString(forKey: "recordNumberORPassport", languageType: "ar")
+            visaIdPlaceHolder = localizedString(forKey: "passRecordResandancy", languageType: "ar")
             validatinLengthFristFeild  = VALIDATION_NUMBER_15
             validatinLengthSecondFeild  =  RECORD_ID_VALIDATION
             break
@@ -336,9 +341,9 @@ class InqueriesFeildViewController: BaseController,  UITextViewDelegate {
 
         }
         else {
-            vc.viewHeightValue = 150
+            vc.viewHeightValue = 170
 
-             vc.messageValue =  "حقل إدخال لرقم السجل المدني او رقم  جواز السفر "
+             vc.messageValue =  "حقل إدخال لرقم السجل المدني اورقم الأقامة أو رقم  جواز السفر "
         }
         vc.modalPresentationStyle = UIModalPresentationStyle.overCurrentContext
         present(vc, animated: true)
@@ -358,8 +363,8 @@ class InqueriesFeildViewController: BaseController,  UITextViewDelegate {
             case 1 , 2 , 4:
                 
                
-                if   validateStringValue(checkedValued: InquerySingleTone().sharedInstance.firstFeildValue,emptyValidationMessage: "\( localizedString(forKey: "feildValidation", languageType: "ar") + " " +  recodIDPlaceHolder )",lenghtValidationMessage: " \(recodIDPlaceHolder! + " يجب ان يكون مكون من " + String(validatinLengthFristFeild!) + "رقم" ) ", lenght: validatinLengthFristFeild){
-                    if validateStringValue(checkedValued: InquerySingleTone().sharedInstance.secondFeildValue,emptyValidationMessage: "\( localizedString(forKey: "feildValidation", languageType: "ar") + " " +  visaIdPlaceHolder )",lenghtValidationMessage: " \(visaIdPlaceHolder! + " يجب ان يكون مكون من " + String(validatinLengthSecondFeild!) + "رقم" ) ", lenght: validatinLengthSecondFeild){
+                if   validateStringValue(checkedValued: InquerySingleTone().sharedInstance.firstFeildValue,emptyValidationMessage: "\( localizedString(forKey: "feildValidation", languageType: "ar") + " " +  recodIDPlaceHolder )"){
+                    if validateStringValue(checkedValued: InquerySingleTone().sharedInstance.secondFeildValue,emptyValidationMessage: "\( localizedString(forKey: "feildValidation", languageType: "ar") + " " +  visaIdPlaceHolder )"){
                         
                         moveTo(name: "InqueriesDataViewController",backTo: "InqueriesFeildViewController")
                     }
@@ -375,8 +380,8 @@ class InqueriesFeildViewController: BaseController,  UITextViewDelegate {
                 if InquerySingleTone().sharedInstance.selectStep == 5 || InquerySingleTone().sharedInstance.selectStep == 6 || InquerySingleTone().sharedInstance.selectStep == 7 || InquerySingleTone().sharedInstance.selectStep == 8 {
                     InqueriesTopDataViewController.allData =   MainInqueriesViewModel().assignDateToView(screenNumber: InquerySingleTone().sharedInstance.selectStep).allInQuertItems
                     InqueriesTopDataViewController.showTopView = 1
-                    if   validateStringValue(checkedValued: InquerySingleTone().sharedInstance.firstFeildValue,emptyValidationMessage: "\( localizedString(forKey: "feildValidation", languageType: "ar") + " " +  recodIDPlaceHolder )",lenghtValidationMessage: " \(recodIDPlaceHolder! + " يجب ان يكون مكون من " + String(validatinLengthFristFeild!) + "رقم" ) ", lenght: validatinLengthFristFeild){
-                        if validateStringValue(checkedValued: InquerySingleTone().sharedInstance.secondFeildValue,emptyValidationMessage: "\( localizedString(forKey: "feildValidation", languageType: "ar") + " " +  visaIdPlaceHolder )",lenghtValidationMessage: " \(visaIdPlaceHolder! + " يجب ان يكون مكون من " + String(validatinLengthSecondFeild!) + "رقم" ) ", lenght: validatinLengthSecondFeild){
+                    if   validateStringValue(checkedValued: InquerySingleTone().sharedInstance.firstFeildValue,emptyValidationMessage: "\( localizedString(forKey: "feildValidation", languageType: "ar") + " " +  recodIDPlaceHolder )"){
+                        if validateStringValue(checkedValued: InquerySingleTone().sharedInstance.secondFeildValue,emptyValidationMessage: "\( localizedString(forKey: "feildValidation", languageType: "ar") + " " +  visaIdPlaceHolder )"){
                             
                             moveTo(name: "InqueriesTopDataViewController",backTo: "InqueriesFeildViewController")
                         }

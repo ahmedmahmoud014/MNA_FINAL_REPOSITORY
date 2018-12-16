@@ -84,9 +84,13 @@ class InqueriesTopDataViewController: BaseController ,UITableViewDataSource,UITa
         allDataTableView
             .addShadowR(roundBorder: 20, opacity: 0.1)
         if InqueriesTopDataViewController.pageTitleText.isEmpty {
+            
          pageTitleValueLbl.text = InquerySingleTone().sharedInstance.pageTilte
+            
         }else {
+            
              pageTitleValueLbl.text   = InqueriesTopDataViewController.pageTitleText
+            
         }
         pageTitle.addShadowR(roundBorder: 20, opacity: 0.1)
         deviceTypeForMarginTop(marginTop: topConstraint)

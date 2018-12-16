@@ -227,5 +227,6 @@ serviceHomePage =  "خدمات السعوديين في الخارج";
 instructionHomePage =  "إرشادات";
 aboutHomePage = "عن التطبيق";
 
-
 teeeeee = "بنجرب ";
+
+passRecordResandancy = "رقم السجل المدني أو الأقامة أو جوازالسفر";

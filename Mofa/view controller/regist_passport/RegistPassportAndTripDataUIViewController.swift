@@ -160,7 +160,7 @@ class RegistPassportAndTripDataUIViewController: BaseController   , ScrollViewUp
         case 1:
            
                 pageTitleValue.text = localizedString(forKey: "sesondStep", languageType: "ar")
-                buttonTittle(backTitle: "back",backImage: "arrow_right", nextTitle: "next", nextImage: "arrow_left")
+                buttonTittle(backTitle: "back",backImage: "arrow_right_30", nextTitle: "next", nextImage: "arrow_left")
                 containerHeight.constant  =  530
                 addViewControllerToContainer(asChildViewController: secondStep)
             
@@ -195,7 +195,7 @@ class RegistPassportAndTripDataUIViewController: BaseController   , ScrollViewUp
                     }else
                     {
                         pageTitleValue.text = localizedString(forKey: "thirdStep", languageType: "ar")
-                        buttonTittle(backTitle: "back",backImage: "arrow_right", nextTitle: "next", nextImage: "arrow_left")
+                        buttonTittle(backTitle: "back",backImage: "arrow_right_30", nextTitle: "next", nextImage: "arrow_left")
                         containerHeight.constant  =  500
                         addViewControllerToContainer(asChildViewController: thirdStep)
                     }
@@ -232,7 +232,7 @@ class RegistPassportAndTripDataUIViewController: BaseController   , ScrollViewUp
                         {
                              nextBtnValue.imageInButtonLeft(position: .left, imageEdgeSet: UIEdgeInsetsMake(21, nextBtnValue.bounds.width / 6 , 21, nextBtnValue.bounds.width / 8))
                             pageTitleValue.text = localizedString(forKey: "fourStep", languageType: "ar")
-                            buttonTittle(backTitle: "back",backImage: "arrow_right", nextTitle: "send", nextImage: "send_f")
+                            buttonTittle(backTitle: "back",backImage: "arrow_right_30", nextTitle: "send", nextImage: "send_f")
                             containerHeight.constant  =  600
                             addViewControllerToContainer(asChildViewController: fourdStep)
                         }

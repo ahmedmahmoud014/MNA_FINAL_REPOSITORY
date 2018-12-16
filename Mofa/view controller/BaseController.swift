@@ -450,6 +450,21 @@ class BaseController: UIViewController {
     }
     
     
+    // sring validation
+    func validateStringValue  (checkedValued  : String , emptyValidationMessage : String) -> Bool
+    {
+        //var status: Bool!
+        if checkedValued.isEmpty {
+            showAlert(message: emptyValidationMessage, title: "")
+            print("em")
+            return false
+            
+        }else{
+            return true
+        }
+        
+    }
+    
     // sring validation 
     func validateStringValue  (checkedValued  : String , emptyValidationMessage :  String ,lenghtValidationMessage :  String ,lenght : Int ) -> Bool
     {
