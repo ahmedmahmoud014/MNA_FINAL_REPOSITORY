@@ -11,10 +11,10 @@ import UIKit
 class HomePageTableViewModel {
     
     
-   public var  headerTitle = [MainPageTableHeader(headerName: "الإستعلامات" ,imageName: "info",colaps: "plus"),
-    MainPageTableHeader(headerName: "خدمات السعوديين في الخارج",imageName: "services",colaps: "plus"),
-    MainPageTableHeader(headerName: "إرشادات",imageName: "bullet.png",colaps: "plus"),
-    MainPageTableHeader(headerName: "عن التطبيق",imageName: "help",colaps: "plus")]
+   public var  headerTitle = [MainPageTableHeader(headerName: "الإستعلامات" ,imageName: "info_f",colaps: "plus"),
+    MainPageTableHeader(headerName: "خدمات السعوديين في الخارج",imageName: "services_f",colaps: "plus"),
+    MainPageTableHeader(headerName: "إرشادات",imageName: "help_f",colaps: "plus"),
+    MainPageTableHeader(headerName: "عن التطبيق",imageName: "about_f",colaps: "plus")]
     
     
     func assignItemToArray() ->  [ExpandableTableRow]{

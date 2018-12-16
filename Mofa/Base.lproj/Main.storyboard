@@ -313,7 +313,7 @@
                                                     </constraints>
                                                 </view>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="service name " textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Sj4-YB-0ww">
-                                                    <rect key="frame" x="10" y="5" width="320" height="19"/>
+                                                    <rect key="frame" x="10" y="5" width="320" height="21"/>
                                                     <fontDescription key="fontDescription" name="HacenAlgeria" family="Hacen Algeria" pointSize="18"/>
                                                     <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <nil key="highlightedColor"/>
@@ -817,14 +817,14 @@
                                 <rect key="frame" x="31" y="517" width="353" height="72"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="right" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cWK-K2-pYX">
-                                        <rect key="frame" x="94" y="5" width="259" height="59"/>
+                                        <rect key="frame" x="104" y="5" width="249" height="59"/>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="59" id="WwT-S4-wWq"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" name="HacenAlgeria" family="Hacen Algeria" pointSize="22"/>
                                         <inset key="titleEdgeInsets" minX="0.0" minY="0.0" maxX="5" maxY="10"/>
-                                        <state key="normal" title="البحث عن  الممثليات بالدول " image="world_location40.png">
+                                        <state key="normal" title="البحث عن  الممثليات بالدول " image="world_location.png">
                                             <color key="titleColor" red="0.12984204290000001" green="0.12984612579999999" blue="0.12984395030000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
                                         <connections>
@@ -858,14 +858,14 @@
                                         </constraints>
                                     </imageView>
                                     <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="right" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pbh-NA-pbc">
-                                        <rect key="frame" x="164" y="6" width="185" height="60"/>
+                                        <rect key="frame" x="174" y="6" width="175" height="60"/>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="60" id="twG-Rc-7vW"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" name="HacenAlgeria" family="Hacen Algeria" pointSize="23"/>
                                         <inset key="titleEdgeInsets" minX="0.0" minY="0.0" maxX="0.0" maxY="10"/>
-                                        <state key="normal" title="حدد أقرب ممثلية " image="world_location40.png">
+                                        <state key="normal" title="حدد أقرب ممثلية " image="distance.png">
                                             <color key="titleColor" red="0.12984204290000001" green="0.12984612579999999" blue="0.12984395030000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
                                         <connections>
@@ -963,7 +963,7 @@
                                                     </constraints>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="48b-o2-yZc">
-                                                    <rect key="frame" x="258.66666666666669" y="12.000000000000004" width="54.333333333333314" height="46.333333333333343"/>
+                                                    <rect key="frame" x="251.66666666666666" y="12.000000000000004" width="61.333333333333343" height="46.333333333333343"/>
                                                     <fontDescription key="fontDescription" name="HacenAlgeria" family="Hacen Algeria" pointSize="25"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
@@ -1546,7 +1546,7 @@
                                 <rect key="frame" x="0.0" y="13" width="375" height="399"/>
                                 <subviews>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="أتعهد بتدوين  جميع بياناتي بالشكل الصحيح من واقع هويتي الشخصيه وأتحمل كامل المسئولية إن ثبت خلاف ذلك " textAlignment="right" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qNi-5M-LdM">
-                                        <rect key="frame" x="8" y="42.333333333333343" width="345" height="189"/>
+                                        <rect key="frame" x="8" y="45.333333333333343" width="345" height="189"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="189" id="uxv-G3-HBQ"/>
@@ -1555,7 +1555,7 @@
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="الموافقة علي التعهد " textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IK0-zT-ejZ">
-                                        <rect key="frame" x="5" y="14.999999999999998" width="349" height="26.333333333333329"/>
+                                        <rect key="frame" x="5" y="14.999999999999998" width="349" height="29.333333333333329"/>
                                         <fontDescription key="fontDescription" name="HacenAlgeria" family="Hacen Algeria" pointSize="25"/>
                                         <color key="textColor" red="0.074509803920000006" green="0.38823529410000002" blue="0.2784313725" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
@@ -1615,7 +1615,7 @@
                                 <rect key="frame" x="0.0" y="429" width="375" height="65"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FyM-ql-NkD">
-                                        <rect key="frame" x="326.66666666666669" y="0.0" width="43.333333333333314" height="65"/>
+                                        <rect key="frame" x="321" y="0.0" width="49" height="65"/>
                                         <fontDescription key="fontDescription" name="HacenAlgeria" family="Hacen Algeria" pointSize="20"/>
                                         <color key="textColor" red="0.74117647058823533" green="0.70588235294117652" blue="0.70980392156862748" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
@@ -1697,7 +1697,7 @@
                                 <rect key="frame" x="0.0" y="69" width="375" height="65"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="scan regula " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yyU-ho-bWD">
-                                        <rect key="frame" x="275" y="0.0" width="95" height="65"/>
+                                        <rect key="frame" x="261.33333333333331" y="0.0" width="108.66666666666669" height="65"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="65" id="70E-JW-a3p"/>
                                         </constraints>
@@ -2076,17 +2076,17 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="main_bg.png" translatesAutoresizingMaskIntoConstraints="NO" id="J1n-Ef-bHO">
-                                <rect key="frame" x="0.0" y="0.0" width="1080" height="896"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="done_help.png" translatesAutoresizingMaskIntoConstraints="NO" id="Vun-1d-jCx">
-                                <rect key="frame" x="97" y="189" width="886" height="181"/>
+                                <rect key="frame" x="97" y="189" width="220" height="181"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="181" id="VLd-Yd-2lo"/>
                                     <constraint firstAttribute="height" constant="181" id="rhj-Nj-Lvl"/>
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bxc-tK-YKS">
-                                <rect key="frame" x="16" y="394" width="1048" height="91"/>
+                                <rect key="frame" x="16" y="394" width="382" height="91"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="91" id="zVp-h9-fFt"/>
                                 </constraints>
@@ -2095,7 +2095,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dub-G4-hJW">
-                                <rect key="frame" x="16" y="510" width="1048" height="65"/>
+                                <rect key="frame" x="16" y="510" width="382" height="65"/>
                                 <color key="backgroundColor" red="0.14117647059999999" green="0.49803921569999998" blue="0.36862745099999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="65" id="Hll-41-MTX"/>
@@ -2506,7 +2506,7 @@
                                         </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BCb-rf-bqi">
-                                        <rect key="frame" x="365.66666666666669" y="0.0" width="43.333333333333314" height="65"/>
+                                        <rect key="frame" x="360" y="0.0" width="49" height="65"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="65" id="v9O-zu-oEc"/>
                                         </constraints>
@@ -4259,6 +4259,7 @@
         <image name="before_active1.png" width="60" height="60"/>
         <image name="bullet.png" width="60" height="60"/>
         <image name="delete.png" width="120" height="120"/>
+        <image name="distance.png" width="30" height="30"/>
         <image name="done_help.png" width="328" height="323"/>
         <image name="home_f.png" width="23" height="23"/>
         <image name="idea.png" width="60" height="60"/>
@@ -4279,7 +4280,7 @@
         <image name="vote.png" width="60" height="60"/>
         <image name="while_disabled1.png" width="60" height="60"/>
         <image name="white_map.png" width="60" height="60"/>
-        <image name="world_location40.png" width="40" height="40"/>
+        <image name="world_location.png" width="30" height="30"/>
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="JQV-6F-WlO"/>

@@ -355,7 +355,7 @@ class InqueriesFeildViewController: BaseController,  UITextViewDelegate {
         {
             
             switch InquerySingleTone().sharedInstance.selectStep {
-            case 1 , 2 , 4,5:
+            case 1 , 2 , 4:
                 
                
                 if   validateStringValue(checkedValued: InquerySingleTone().sharedInstance.firstFeildValue,emptyValidationMessage: "\( localizedString(forKey: "feildValidation", languageType: "ar") + " " +  recodIDPlaceHolder )",lenghtValidationMessage: " \(recodIDPlaceHolder! + " يجب ان يكون مكون من " + String(validatinLengthFristFeild!) + "رقم" ) ", lenght: validatinLengthFristFeild){
@@ -368,11 +368,11 @@ class InqueriesFeildViewController: BaseController,  UITextViewDelegate {
                 
                 
                 break
-            case 3 , 6 , 7 ,8:
+            case 3,5 , 6 , 7 ,8:
                 
                 
                 
-                if InquerySingleTone().sharedInstance.selectStep == 6 || InquerySingleTone().sharedInstance.selectStep == 7 || InquerySingleTone().sharedInstance.selectStep == 8 {
+                if InquerySingleTone().sharedInstance.selectStep == 5 || InquerySingleTone().sharedInstance.selectStep == 6 || InquerySingleTone().sharedInstance.selectStep == 7 || InquerySingleTone().sharedInstance.selectStep == 8 {
                     InqueriesTopDataViewController.allData =   MainInqueriesViewModel().assignDateToView(screenNumber: InquerySingleTone().sharedInstance.selectStep).allInQuertItems
                     InqueriesTopDataViewController.showTopView = 1
                     if   validateStringValue(checkedValued: InquerySingleTone().sharedInstance.firstFeildValue,emptyValidationMessage: "\( localizedString(forKey: "feildValidation", languageType: "ar") + " " +  recodIDPlaceHolder )",lenghtValidationMessage: " \(recodIDPlaceHolder! + " يجب ان يكون مكون من " + String(validatinLengthFristFeild!) + "رقم" ) ", lenght: validatinLengthFristFeild){
