@@ -205,7 +205,7 @@ class MainInqueriesViewModel {
                 InqueryItems(title: BaseController().localizedString(forKey: "invitationNumber",languageType: "ar"),value: InquerySingleTone().sharedInstance.firstFeildValue),
                 InqueryItems(title: BaseController().localizedString(forKey: "invitationDate",languageType: "ar"),value: "٣٠ مايو ٢٠١٩"),
                 InqueryItems(title: BaseController().localizedString(forKey: "companyOwnerName",languageType: "ar"),value: "سلمان بن عبد العزيز "),
-                InqueryItems(title: BaseController().localizedString(forKey: "requestUserRecord",languageType: "ar"),value: InquerySingleTone().sharedInstance.firstFeildValue),
+                InqueryItems(title: BaseController().localizedString(forKey: "requestUserRecord",languageType: "ar"),value: InquerySingleTone().sharedInstance.secondFeildValue),
                 InqueryItems(title: BaseController().localizedString(forKey: "tradeRecordId",languageType: "ar"),value: "٤٤٣٤٣٥٣٤٣٤٣"),
                 InqueryItems(title: BaseController().localizedString(forKey: "companyFeild",languageType: "ar"),value: "تركيبات "),
                 InqueryItems(title: BaseController().localizedString(forKey: "companyAddress",languageType: "ar"),value: "الرياض العليا شارع الوليد رقم ١٠ "),

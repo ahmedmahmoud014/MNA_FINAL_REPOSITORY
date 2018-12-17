@@ -133,20 +133,25 @@ class ThirdStepRegistPassportAndTripDataUIViewController: BaseController ,UIText
     
     func textViewDidChange(_ textView: UITextView) {
         let textViewValue =  textView.text!
+        textView.text = textViewValue.stripped
+
 //        textView.textContainerInset = UIEdgeInsetsMake(15, 5, 5, 5)
 
       print(textViewValue)
         switch textView.tag {
         case 0 :
+            textView.text = textViewValue.strippedPhone
         RegistPassportSingletone().sharedInstance.phoneNumber = textViewValue
             break;
         case 1 :
+            textView.text = textViewValue.strippedEmail
         RegistPassportSingletone().sharedInstance.email = textViewValue
             break;
         case 3 :
         RegistPassportSingletone().sharedInstance.friendName = textViewValue
             break;
         case 4 :
+            textView.text = textViewValue.strippedPhone
         RegistPassportSingletone().sharedInstance.friendPhone = textViewValue
             break;
             

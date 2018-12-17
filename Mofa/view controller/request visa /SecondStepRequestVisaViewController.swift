@@ -21,6 +21,7 @@ class SecondStepRequestVisaViewController: BaseController ,UITextViewDelegate,Po
     }
     
     
+    
     @IBOutlet weak var emailTxt: UITextView!
     
     @IBOutlet weak var countryTypBtn: UIButton!
@@ -40,7 +41,7 @@ class SecondStepRequestVisaViewController: BaseController ,UITextViewDelegate,Po
     var cityTextPlaceHolder : String!
     var representationTTextPlaceHolder : String!
     var detailsTextPlaceHolder : String!
-    var phoneNumber : String!
+    //var phoneNumber : String!
 
     
     override func viewDidLoad() {
@@ -153,9 +154,9 @@ class SecondStepRequestVisaViewController: BaseController ,UITextViewDelegate,Po
             switch textView.tag {
                 
                             
-                            case 3 :
-                                textView.text =  emailTextPlaceHolder
-                                RequestVisaSingleTone().sharedInstance.email =  ""
+           case 3 :
+            textView.text =  emailTextPlaceHolder
+            RequestVisaSingleTone().sharedInstance.email =  ""
 
                             break;
             case 4 :
@@ -201,11 +202,13 @@ class SecondStepRequestVisaViewController: BaseController ,UITextViewDelegate,Po
     
     func textViewDidChange(_ textView: UITextView) {
 //        textView.textContainerInset = UIEdgeInsetsMake(15, 5, 5, 5)
+        
 
         let textViewValue =  textView.text!
+
         switch textView.tag {
         case 3 :
-            
+            textView.text = textViewValue.strippedEmail
             if (textViewValue.maxLenght(maxNumber: 51)){
                 RequestVisaSingleTone().sharedInstance.email = textViewValue
             }

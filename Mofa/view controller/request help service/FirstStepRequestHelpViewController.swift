@@ -115,8 +115,12 @@ class FirstStepRequestHelpViewController : BaseController ,UITextViewDelegate {
         
     }
     
+    
+    
     func textViewDidChange(_ textView: UITextView) {
         let textViewValue =  textView.text!
+        textView.text = textViewValue.stripped
+
 //        textView.textContainerInset = UIEdgeInsetsMake(15, 5, 5, 5)
 
         switch textView.tag {
@@ -137,9 +141,13 @@ class FirstStepRequestHelpViewController : BaseController ,UITextViewDelegate {
             
             break;
         case 4:
+            textView.text = textViewValue.trimmedString
+
             RequestHelpSingleTone().sharedInstance.passportId =  textViewValue
             break
         case 5:
+            textView.text = textViewValue.trimmedString
+
             RequestHelpSingleTone().sharedInstance.recordId =  textViewValue
             break
 

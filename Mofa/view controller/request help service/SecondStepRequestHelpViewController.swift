@@ -213,17 +213,22 @@ class SecondStepRequestHelpViewController:BaseController ,UITextViewDelegate,Pop
 
         
         let textViewValue =  textView.text!
+        textView.text = textViewValue.stripped
+
         switch textView.tag {
         case 0 :
+            textView.text = textViewValue.strippedPhone
             RequestHelpSingleTone().sharedInstance.phoneNumber = textViewValue
             break;
         case 1 :
+            textView.text = textViewValue.strippedEmail
                RequestHelpSingleTone().sharedInstance.email = textViewValue
             break;
         case 4 :
                 RequestHelpSingleTone().sharedInstance.city = textViewValue
             break;
         case 5 :
+            textView.text = textViewValue.strippedAddress
                 RequestHelpSingleTone().sharedInstance.address = textViewValue
             break;
             

@@ -239,9 +239,11 @@ class InqueriesFeildViewController: BaseController,  UITextViewDelegate {
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
-        
-        
-      
+    }
+    
+    func textViewDidChange(_ textView: UITextView) {
+        let value = textView.text!
+        textView.text = value.stripped
     }
     
     func textViewDidBeginEditing(_ textView: UITextView) {
@@ -284,14 +286,15 @@ class InqueriesFeildViewController: BaseController,  UITextViewDelegate {
             }
             textView.textColor = UIColor.lightGray
         }else {
+            let value = textView.text!
             textView.contentInset = UIEdgeInsetsMake(0, 25, 0, 0)
             switch textView.tag {
             case 0 :
-                InquerySingleTone().sharedInstance.firstFeildValue = textView.text!
+                InquerySingleTone().sharedInstance.firstFeildValue = value
                 print(InquerySingleTone().sharedInstance.firstFeildValue)
                 break;
             case 1 :
-                InquerySingleTone().sharedInstance.secondFeildValue = textView.text!
+                InquerySingleTone().sharedInstance.secondFeildValue = value
                 
                 break;
             default: break

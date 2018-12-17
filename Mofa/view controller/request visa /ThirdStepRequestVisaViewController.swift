@@ -39,7 +39,16 @@ class ThirdStepRequestVisaViewController :  BaseController ,UITextViewDelegate,U
     }
     
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        return 55
+//        return 55
+        if indexPath.row == 3{
+            print("return  60 \(indexPath.row)")
+            return 73
+
+        }
+        else {
+            print("return  555")
+            return 58
+        }
     }
     
     
@@ -88,6 +97,8 @@ class ThirdStepRequestVisaViewController :  BaseController ,UITextViewDelegate,U
         }
     }
     
+    
+    
     func textViewDidEndEditing(_ textView: UITextView) {
         if textView.text.isEmpty {
             textView.textContainerInset = UIEdgeInsetsMake(textView.bounds.height/3, 5, 5, 5)
@@ -117,6 +128,7 @@ class ThirdStepRequestVisaViewController :  BaseController ,UITextViewDelegate,U
     func textViewDidChange(_ textView: UITextView) {
         
         let textViewValue =  textView.text!
+        textView.text = textViewValue.stripped
         switch textView.tag {
         case 2 :
             textView.textContainerInset = UIEdgeInsetsMake(5, 5, 5, 5)

@@ -64,13 +64,14 @@ addPlaceHolder(textView: verifyCodeTxt, textPlace: verifyCodeTextPlaceHolder, ta
             textView.textColor = UIColor.black
         }
     }
-    
+   
     
     
     func textViewDidChange(_ textView: UITextView) {
         //        textView.textContainerInset = UIEdgeInsetsMake(15, 5, 5, 5)
-        
+
         let textViewValue =  textView.text!
+        textView.text = textViewValue.stripped
         switch textView.tag {
         case 0 :
             RequestVisaSingleTone().sharedInstance.verfiyCode = textViewValue

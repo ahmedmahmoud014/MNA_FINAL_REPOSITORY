@@ -294,6 +294,8 @@ class FourthStepRegistPassportAndTripDataUIViewController: BaseController ,UITex
     func textViewDidChange(_ textView: UITextView) {
         
         let textViewValue =  textView.text!
+        textView.text = textViewValue.stripped
+
 //        textView.textContainerInset = UIEdgeInsetsMake(15, 5, 5, 5)
 
         switch textView.tag {
@@ -303,6 +305,7 @@ class FourthStepRegistPassportAndTripDataUIViewController: BaseController ,UITex
             break;
 
         case 5 :
+            textView.text = textViewValue.strippedAddress
                 RegistPassportSingletone().sharedInstance.address = textViewValue
            
             break;

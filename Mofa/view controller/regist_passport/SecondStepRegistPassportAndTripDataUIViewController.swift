@@ -129,14 +129,18 @@ class SecondStepRegistPassportAndTripDataUIViewController: BaseController ,UITex
         //        textView.textContainerInset = UIEdgeInsetsMake(15, 5, 5, 5)
         
         let textViewValue =  textView.text!
+        textView.text = textViewValue.stripped
+
         switch textView.tag {
         case 0 :
             RegistPassportSingletone().sharedInstance.name = textViewValue
             break;
         case 1 :
+            textView.text = textViewValue.trimmedString
             RegistPassportSingletone().sharedInstance.passportId = textViewValue
             break;
         case 2 :
+            textView.text = textViewValue.trimmedString
             RegistPassportSingletone().sharedInstance.RECORDID = textViewValue
             break;
             

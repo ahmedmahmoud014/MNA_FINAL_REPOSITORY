@@ -213,6 +213,8 @@ class ThirdStepRequestHelpViewController: BaseController,UITableViewDataSource,U
     
     func textViewDidChange(_ textView: UITextView) {
         let textViewValue =  textView.text!
+        textView.text = textViewValue.stripped
+
         textView.textContainerInset = UIEdgeInsetsMake(15, 5, 5, 5)
 
         if (textViewValue.maxLenght(maxNumber: 101)){

@@ -34,7 +34,7 @@ extension  UIButton {
         
         self.imageView?.contentMode = .scaleAspectFit
         self.imageEdgeInsets =  imageEdgeSet
-        titleEdgeInsets = UIEdgeInsets(top: 0, left: 0, bottom: 0, right: availableWidth / 2)
+        titleEdgeInsets = UIEdgeInsets(top: 0, left: 0, bottom: 0, right: availableWidth / 4)
     }
     
     
